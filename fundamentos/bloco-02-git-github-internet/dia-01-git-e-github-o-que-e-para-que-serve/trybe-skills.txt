@@ -1,9 +1,9 @@
 O que eu vou aprender na Trybe:
 
 -Unix
--bash
+-Bash
 -Git
 -Html
 -CSS
--lógica de Programação
--javascript
+-Lógica de Programação
+-JavaScript
