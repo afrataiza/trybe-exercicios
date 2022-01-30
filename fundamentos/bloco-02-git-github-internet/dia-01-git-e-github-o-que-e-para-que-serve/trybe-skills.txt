@@ -3,3 +3,5 @@ O que eu vou aprender na Trybe:
 -Unix
 -bash
 -Git
+-Html
+-CSS
