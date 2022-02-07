@@ -6,4 +6,4 @@ let anoAtual = 2022
 console.log (myName);
 console.log (birthCity);
 console.log (birthYear);
-console.log('você tem', anoAtual - birthYear, 'anos!');
+console.log('você tem', (anoAtual - birthYear - 1), 'anos!');
