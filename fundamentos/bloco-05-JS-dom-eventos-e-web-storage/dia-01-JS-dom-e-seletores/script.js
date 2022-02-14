@@ -1,16 +1,19 @@
-let title = (document.getElementById('page-title'));
-title.innerText = '10 Coisas Que Odeio Em Você';
-title.style.color = 'red';
+document.getElementById('header-container').style.backgroundColor = 'green';
 
-// let paragraph = document.getElementById('second-paragraph');
-//paragraph.innerText = 'Ano do Filme: 1999';
+let emergencyTasks = document.getElementsByClassName('emergency-tasks');
+emergencyTasks[0].style.backgroundColor = 'pink';
 
-// let subtitle = document.getElementById('subtitle');
-// subtitle.innerText = 'informações do filme';
+let h3Emergency = document.querySelectorAll('.h3-emergency');
+for (index = 0; index < h3Emergency.length; index += 1) {
+    h3Emergency[index].style.backgroundColor = 'purple';
+}
 
-let paragraphClass = document.getElementsByClassName('paragraph');
+let noEmergencyTasks = document.getElementsByClassName('no-emergency-tasks');
+noEmergencyTasks[0].style.backgroundColor = 'yellow';
 
-paragraphClass[1].innerText = 'Ano do Filme: 1999';
+let h3NoEmergency = document.querySelectorAll('.h3-no-emergency');
+for (index = 0; index < h3NoEmergency.length; index += 1) {
+    h3NoEmergency[index].style.backgroundColor = 'black';
+}
 
-let colorSubtitle = document.getElementsByTagName('h4');
-colorSubtitle[0].style.color = 'green';
+document.getElementById('footer-container').style.backgroundColor = 'seagreen';
